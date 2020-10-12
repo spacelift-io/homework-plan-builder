@@ -10,7 +10,7 @@ We also have the environment variable *TARGET_OBJECT_ID* set to *transformed_ama
 ```go
 func main() {
 	var minioCli *minio.Client
-	// Initialize minio client.
+	// Init minio client.
 
 	plan := &ObjectSaver{
 		Source: &Concatenate{
