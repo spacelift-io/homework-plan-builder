@@ -65,7 +65,7 @@ On evaluation, this should read the *my_amazin_object* object from the minio sou
 abcdefghijklmnopabcdefghijklmnopabcdefghijklmnopabcdefghijklmnopabcdefghijklmnopbacon
 ```
 
-The above code (with possible minor modifications) should work.
+The above code (with possible minor modifications) should work connected with a local Minio instance.
 
 Make sure to design extensible and composable interfaces. Feel free to operate on byte slices instead of readers (you can always call ioutil.ReadAll to turn a reader into a byte slice if you need), optimization isn't important here.
 
