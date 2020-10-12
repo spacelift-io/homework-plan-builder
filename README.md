@@ -1,6 +1,6 @@
 # Homework Plan Builder
 
-Write a library for building object storage operation plans. The idea is that you can build an execution plan using structures and afterwards evaluate it, which “makes everything happen”. This is best described with an example.
+Write a library for building object storage operation plans. The idea is that you can build an execution plan (the query "code") using structures and afterwards evaluate it, which “makes everything happen”. This is best described with an example.
 
 Let’s assume that we have an object storage bucket *papaya*, which contains the object *my_amazin_object* whose content is 
 ```
