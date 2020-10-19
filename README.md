@@ -20,7 +20,7 @@ func main() {
 						Source: &ObjectFromSource{
 							Bucket: &IDVariable{
 								Variable: &IDConstant{
-									ID: "amazin_bucket",
+									ID: ID("amazin_bucket"),
 								},
 							},
 							ID: &IDConstant{
@@ -34,7 +34,7 @@ func main() {
 				},
 				&ObjectVariable{
 					Variable: &IDConstant{
-						ID: "amazin_data",
+						ID: ID("amazin_data"),
 					},
 				},
 			},
