@@ -60,6 +60,8 @@ func main() {
 }
 ```
 
+ID(...) is just a type alias here.
+
 On evaluation, this should read the *my_amazin_object* object from the minio source. Take the first 16 bytes of it. Repeat the resulting content 5 times, concatenate it with “bacon”, finally creating a new *transformed_amazin_object* object in the *papaya* bucket with the content:
 ```
 abcdefghijklmnopabcdefghijklmnopabcdefghijklmnopabcdefghijklmnopabcdefghijklmnopbacon
